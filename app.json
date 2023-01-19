@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cfac9ec0-7389-4b02-b321-d43382853506"
+      }
+    },
+    "owner": "mr-worldwiders"
   }
 }
