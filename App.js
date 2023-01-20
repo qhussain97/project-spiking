@@ -2,8 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 import * as SQLite from 'expo-sqlite'
 import { useEffect, useState } from 'react';
-
-
+import TestComp from './TestComp.jsx';
 
 
 export default function App() {
@@ -12,7 +11,6 @@ export default function App() {
   const [currentName, setCurrentName] = useState([])
   const [db, setDb] = useState(SQLite.openDatabase('example.db'))
   
-
   useEffect(() => {
     
     db.transaction(tx => {
@@ -90,10 +88,15 @@ export default function App() {
       <Text>Name list from DB:
         {showNames()}
       </Text>
+      <Text>Get random cocktail:
+      </Text>
+      <TestComp />
+
       <StatusBar style="auto" />
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
