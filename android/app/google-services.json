@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "208727763698",
+    "project_id": "test-project-8f875",
+    "storage_bucket": "test-project-8f875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208727763698:android:c2a27bc9ee0c7416c3fe6b",
+        "android_client_info": {
+          "package_name": "com.anonymous.projectspiking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208727763698-ihe0ivkurplu9as0d1vb8079cud1aavh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTpL9cv8LEoFET2n8eVYAAOK_WCrknlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208727763698-ihe0ivkurplu9as0d1vb8079cud1aavh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208727763698:android:797d539520023fc1c3fe6b",
+        "android_client_info": {
+          "package_name": "uk.com.react_native_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208727763698-ihe0ivkurplu9as0d1vb8079cud1aavh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTpL9cv8LEoFET2n8eVYAAOK_WCrknlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208727763698-ihe0ivkurplu9as0d1vb8079cud1aavh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
